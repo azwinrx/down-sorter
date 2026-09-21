@@ -2,9 +2,10 @@ package main
 
 import (
 	"down-sorter/folder"
+	"down-sorter/sorter"
 )
 
 func main() {
-	// folder.InitAllFolder()
-	read.ReadFile()
+	folder.InitAllFolder()
+	sorter.SorterFile()
 }
