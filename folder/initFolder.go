@@ -30,7 +30,9 @@ func InitAllFolder() {
 	MakeFolder("Compressed/TAR")
 	MakeFolder("Compressed/GZ")
 
+	// Font
+	MakeFolder("Font")
+
 	// Other
 	MakeFolder("Other")
-	MakeFolder("Unknown")
 }
